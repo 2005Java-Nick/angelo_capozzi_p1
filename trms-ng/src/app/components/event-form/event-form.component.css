@@ -1,0 +1,44 @@
+.ef-container {
+    height: 100vh;
+    background-color: #9ee79c;;
+}
+
+.ef-title {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.efInputs {
+    margin: 5px;
+    width: auto;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+ #ef-input{
+    padding: 2px;
+    width: auto;
+    margin: 2px;
+    width: 400px;
+ }
+
+ .ef-text {
+     color:#333;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+ }
+
+ .et-text {
+    color:#333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    margin: 5px 0 2px 0;
+}
+
+
+

@@ -9,6 +9,7 @@ import { EventFormComponent } from './components/event-form/event-form.component
 import { AdminComponent } from './components/admin/admin.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './components/home/home.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './components/home/home.component';
     FooterComponent,
     EventFormComponent,
     AdminComponent,
-    HomeComponent
+    HomeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
