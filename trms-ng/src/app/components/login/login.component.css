@@ -7,7 +7,7 @@
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
-    text-decoration: underline;
+   
     margin: 0;
     padding: 20px;
     color: #333;
@@ -39,6 +39,11 @@
     font-weight: bolder;
     color: #333;
     
+}
+
+.btn a {
+    text-decoration: none;
+    color:#333;
 }
 
 .lBtn:hover{

@@ -1,6 +1,6 @@
 <div class="ef-container"> 
     
-    <h1 class="ef-title">Tuition Reimburesment Management System</h1>
+    <h1 class="ef-title">Event Reimbursement Form</h1>
 
     <div class="efInputs">
        <p class="ef-text">Please Fill Below:</p> 
@@ -10,15 +10,38 @@
       <input id="ef-input" type="text" placeholder="Time(s)">
       <input id="ef-input" type="text" placeholder="Location">
       <textarea id="ef-input" rows="5" cols="100" placeholder="Description" ></textarea>
+      
+      <div class="form-group">
+          <label for="events">
+              Event Type: 
+          </label>
+          <select name="events" id="events" [(ngModel)]="events" class="form-control">
+            <option *ngFor="let evt of events" [value]="evt.id">
+                {{evt.name}}
+            </option>
+          </select>
+      </div>
+      <div class="form-group">
+        <label for="grades">
+            Grade Format: 
+        </label>
+        <select name="grades" id="grades" [(ngModel)]="grades" class="form-control">
+          <option *ngFor="let grade of grades" [value]="grade.id">
+              {{grade.format}}
+          </option>
+        </select>
+    </div>
+
+
       <input id="ef-input" type="number" placeholder="Cost">
-      <p class="et-text"> Select Event Type:</p>
-      <select name="event-type" id="event">
-        <option value="cert">Certification</option>
-        <option value="certprep">Certification Prep classes</option>
-        <option value="college">University Courses</option>
-        <option value="tech">Technical Training</option>
-      </select>
-      <input id="ef-input" type="text" placeholder="Grading Format">
+      
+      
+      <!-- <select name="grading-format" id="gformat">
+          <option selected disabled>Select Grading Format</option>
+          <option value="traditional">Letter Grade</option>
+          <option value="percentage">Percentage</option>
+          <option value="passfail">Pass or Fail</option>
+      </select> -->
       
     </div>
 </div>

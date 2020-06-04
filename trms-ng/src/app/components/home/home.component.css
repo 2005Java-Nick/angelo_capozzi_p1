@@ -33,9 +33,15 @@
     font-weight: bolder;
     color: #333;
     
+    
 }
 
 .hBtn:hover{
     color: #777;
     background-color: rgb(243, 243, 243);
+}
+
+.hBtn a {
+    text-decoration: none;
+    color: #333;
 }

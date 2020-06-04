@@ -11,7 +11,7 @@ export class ConnectionService {
   url = environment.serviceUrl + environment.endpoint;
   private readonly username =  'Angelo';
 
-   public createNewGame() {
+   public createNewReg() {
     this.http.post(this.url,
       { user: this.username },
       {headers : {'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8'}

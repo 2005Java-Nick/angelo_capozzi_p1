@@ -1,0 +1,12 @@
+TRACE	2020-06-03 18:56:01,852	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-06-03 18:56:11,896	10044	root	[main]	org.postgresql.util.PSQLException: The connection attempt failed.
+TRACE	2020-06-03 19:40:19,942	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-06-03 19:40:29,997	10055	root	[main]	org.postgresql.util.PSQLException: The connection attempt failed.
+TRACE	2020-06-03 19:41:07,989	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-06-03 19:41:18,061	10072	root	[main]	org.postgresql.util.PSQLException: The connection attempt failed.
+TRACE	2020-06-03 19:51:00,915	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-06-03 19:51:10,963	10048	root	[main]	org.postgresql.util.PSQLException: The connection attempt failed.
+TRACE	2020-06-03 19:51:19,980	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-06-03 19:51:30,028	10048	root	[main]	org.postgresql.util.PSQLException: The connection attempt failed.
+TRACE	2020-06-03 19:54:14,467	0	root	[main]	Getting remote connection with connection string from environment variables.
+WARN	2020-06-03 19:54:24,512	10045	root	[main]	org.postgresql.util.PSQLException: The connection attempt failed.

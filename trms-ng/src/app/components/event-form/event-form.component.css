@@ -1,6 +1,7 @@
 .ef-container {
     height: 100vh;
-    background-color: #9ee79c;;
+    background-color: #9ee79c;
+    
 }
 
 .ef-title {
@@ -16,9 +17,10 @@
 .efInputs {
     margin: 5px;
     width: auto;
-    float: left;
+    
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
  #ef-input{
     padding: 2px;
