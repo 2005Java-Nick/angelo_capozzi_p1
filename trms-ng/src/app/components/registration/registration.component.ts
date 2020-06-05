@@ -8,15 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegistrationComponent implements OnInit {
 
- 
-
   constructor() { }
 
   ngOnInit(): void {
   }
-
-  
-
 }
 
 // <option selected disabled>Select Event Type</option>

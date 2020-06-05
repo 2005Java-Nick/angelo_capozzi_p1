@@ -46,7 +46,7 @@
     color:#333;
 }
 
-.lBtn:hover{
+.btn:hover{
     color: #777;
     background-color: rgb(243, 243, 243);
 }

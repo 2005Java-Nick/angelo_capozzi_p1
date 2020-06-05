@@ -14,9 +14,11 @@ import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { RegistrationComponent } from './components/registration/registration.component';
 import { AboutComponent } from './components/about/about.component';
-import { EmailComponent } from './components/email/email.component';
+//import { EmailComponent } from './components/email/email.component';
 import { EmployeeComponent } from './components/employee/employee.component';
 import { AuthInterceptor } from './AuthInterceptor';
+import { FormStatusComponent } from './components/form-status/form-status.component';
+import { SubmittedComponent } from './components/submitted/submitted.component';
 
 
 @NgModule({
@@ -31,8 +33,10 @@ import { AuthInterceptor } from './AuthInterceptor';
     ContactComponent,
     RegistrationComponent,
     AboutComponent,
-    EmailComponent,
-    EmployeeComponent
+    //EmailComponent,
+    EmployeeComponent,
+    FormStatusComponent,
+    SubmittedComponent
   ],
   imports: [
     BrowserModule,

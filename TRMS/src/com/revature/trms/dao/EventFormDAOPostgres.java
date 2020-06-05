@@ -18,6 +18,7 @@ public class EventFormDAOPostgres extends EventFormDAO {
 	
 	EmployeeDAOPostgres edp = new EmployeeDAOPostgres();
 	public void getEmployeeName(String fname) throws Exception {
+		Class.forName("com.example.jdbc.Driver");
 		Connection conn = ConnectionFactory.getRemoteConnection();
 		PreparedStatement pstmt;
 		Employee emp = null;

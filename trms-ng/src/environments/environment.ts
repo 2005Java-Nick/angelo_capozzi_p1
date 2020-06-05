@@ -4,8 +4,10 @@
 
 export const environment = {
   production: false,
-  serviceUrl: 'localHost:8080/somethingsometing',
-  endpoint: 'startProgram'
+  serviceUrl: 'http://localHost:8080/TRMS',
+  homeUrl: '/api/home',
+  eventFormUrl: '/api/event-form',
+  adminUrl: '/api/admin'
 };
 
 /*

@@ -8,7 +8,7 @@ import { environment } from '../../environments/environment';
 })
 export class ConnectionService {
 
-  url = environment.serviceUrl + environment.endpoint;
+  url = environment.serviceUrl + environment.homeUrl;
   private readonly username =  'Angelo';
 
    public createNewReg() {

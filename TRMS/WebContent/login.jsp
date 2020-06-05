@@ -9,14 +9,10 @@
 <body bgcolor="lightgray">
 	<% 
 	    String name = request.getParameter("name");
-		String password = request.getParameter("password");
-		
-		String greeting = "Hello " + name + ", welcome to your app!";
-		
-		
-		
+		String password = request.getParameter("password");		
+		String greeting = "Hello " + name + ", welcome to your app!";		
 		out.println(greeting);
+	%>
 		
-		%>
 </body>
 </html>

@@ -4,11 +4,11 @@
 
 
     <div class="loginBtns">
-        <input type="text" class="input" id="nameInput" placeholder="name"><br>
-        <input type="text" class="input" id="passwordInput" placeholder="password"><br>
+        <input type="text" class="input" required="required" id="nameInput" placeholder="name"><br>
+        <input type="text" class="input" required="required" id="passwordInput" placeholder="password"><br>
 
-        <button type="submit" class="btn" id="loginSubBtn">Submit</button>
-        <button type="submit" class="btn" id="loginSubBtn"><a routerLink="/register">Signup</a></button>
+        <button  (click)="login()" class="btn" id="loginSubBtn">Submit</button>
+        <button class="btn" id="loginSubBtn"><a routerLink="/register">Signup</a></button>
     </div>
     
 </div>

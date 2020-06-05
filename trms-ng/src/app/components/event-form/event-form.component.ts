@@ -32,7 +32,7 @@ export class EventFormComponent implements OnInit {
   }
 
   saveGradeFormat(gradeFormat: NgForm): void {
-    console.log(gradeFormat.value)
+    console.log(gradeFormat.value);
   }
 
 }

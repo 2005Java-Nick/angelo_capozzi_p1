@@ -41,6 +41,32 @@
     font-style: italic;
     margin: 5px 0 2px 0;
 }
+.input {
+    padding: 2px;
+    width: auto;
+    text-align: center;
+}
+
+.btn {
+    margin: 10px;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: #333;
+    
+}
+
+.btn a {
+    text-decoration: none;
+    color:#333;
+}
+
+.btn:hover{
+    color: #777;
+    background-color: rgb(243, 243, 243);
+}
 
 
 
